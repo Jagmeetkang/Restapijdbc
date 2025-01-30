@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: restapijdbc
+
+  datasource:
+    url: jdbc:h2:./:productDB
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 8088
